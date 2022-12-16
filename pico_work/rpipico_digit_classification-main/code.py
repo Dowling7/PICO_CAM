@@ -112,14 +112,6 @@ while True:
 
     camera_image.dirty()
     display.refresh(minimum_frames_per_second=0)
-    prediction = svm_min.score(input_data)
-    #Uncomment these lines for debugging
-    ctr = ctr + 1
-    if ctr%50 == 0:
-        print(input_data)
-        print("------")
-    res = prediction.index(max(prediction))
-    #print(res)
-    text_area.text = "Prediction : " +str(res)
+
     sleep(0.01)
 
