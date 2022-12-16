@@ -11,7 +11,6 @@ import terminalio
 import storage
 from adafruit_bitmapsaver import save_pixels
 from adafruit_bitmap_font import bitmap_font
-from adafruit_display_text import label
 from adafruit_ov7670 import OV7670
 from adafruit_st7735r import ST7735R
 
